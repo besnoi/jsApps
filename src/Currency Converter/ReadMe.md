@@ -1,7 +1,7 @@
 
 # Currency Converter
 <p align='center'>
-    <img src='../_img/currency_converter.png'><br>
+    <img src='../../img/currency_converter.png'><br>
     A real-time currency converter with Vanilla JS
 </p>
 
