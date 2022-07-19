@@ -1,0 +1,42 @@
+<!DOCTYPE HTML>
+    <HEAD>
+        <TITLE></TITLE>
+        <META name="viewport" content="width=device-width, initial-scale=1.0"/>
+        <LINK rel="stylesheet" href="style.css"/>        
+        <LINK rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"/>
+
+    </HEAD>
+
+    <BODY>
+        <MAIN>
+            <H1>Currency Converter</H1>
+            <DIV id="form">
+                <DIV class="amount">
+                  <SPAN>Enter Amount</SPAN>
+                  <INPUT type="text" value="1"/>
+                </DIV>
+                <DIV class="currency">
+                    <DIV class="from">
+                      <SPAN>From</SPAN>
+                      <DIV class="select-box">
+                        <IMG src="https://flagcdn.com/48x36/us.png" alt="flag">
+                        <SELECT> <!-- Options tag are inserted from JavaScript --> </SELECT>
+                      </DIV>
+                    </DIV>
+                    <DIV class="icon"><I class="fas fa-exchange-alt"></I></DIV>
+                    <DIV class="to">
+                      <SPAN>To</SPAN>
+                      <DIV class="select-box">
+                        <IMG src="https://flagcdn.com/48x36/in.png" alt="flag">
+                        <SELECT> <!-- Options tag are inserted from JavaScript --> </SELECT>
+                      </DIV>
+                    </DIV>
+                </DIV>
+                <DIV class="exchange-rate">Getting exchange rate...</DIV>
+                <BUTTON>Get Exchange Rate</BUTTON>
+            </DIV>
+        </MAIN>
+    </BODY>
+    <SCRIPT src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></SCRIPT>
+    <SCRIPT src="script.js"></SCRIPT>
+</HTML>
