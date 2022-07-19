@@ -17,7 +17,7 @@ Select the currencies to convert to and from, and hit the *Get Exchange Rate* fu
 
 ## Run Online
 
-Click here to [Preview Currency Converter](https://htmlpreview.github.io/?https://github.com/besnoi/jsApps/tree/main/src/Currency%20Converter)
+Click here to [Preview Currency Converter](https://htmlpreview.github.io/?https://github.com/besnoi/jsApps/blob/main/src/Currency%20Converter/index.html)
 
 ## Download
 
